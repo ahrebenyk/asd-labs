@@ -8,6 +8,7 @@ public class Lab1 {
 
     static void main() {
         Scanner scanner = new Scanner(System.in);
+        IO.println("Введіть x");
         int x = scanner.nextInt();
         println("x8 = " + x8(x));
         println("x10 = " + x10(x));
