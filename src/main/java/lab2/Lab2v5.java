@@ -4,12 +4,13 @@ import java.util.Scanner;
 
 import static java.lang.IO.println;
 
-public class Lab2 {
+public class Lab2v5 {
 
     static void main() {
         Scanner scanner = new Scanner(System.in);
+        IO.println("Введіть чотиризначне число:");
         int x = scanner.nextInt();
-        println("result = " + replace23(x));
+        println("Результат перестановки 2 та 3 цифри:\n" + replace23(x));
     }
 
     static int replace23(int x) {
