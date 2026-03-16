@@ -8,7 +8,7 @@ public class Mkr1 {
 
     static void main() {
         Scanner scanner = new Scanner(System.in);
-        IO.println("Введіть тризначне число:");
+        println("Введіть тризначне число:");
         int x = scanner.nextInt();
         println("Результат перестановки 1 та 2 цифри:\n" + replace12(x));
     }
