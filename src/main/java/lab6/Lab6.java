@@ -13,14 +13,13 @@ public class Lab6 {
         int digit = sc.nextInt();
 
         int count = 0;
-        long temp = number;
-        while (temp > 0) {
-            if (temp % 10 == digit) {
+        while (number > 0) {
+            if (number % 10 == digit) {
                 count++;
             }
-            temp /= 10;
+            number /= 10;
         }
 
-        IO.println("Цифра %s зустрічається %s раз в числі %s".formatted(digit, count, number));
+        IO.println("Цифра %s зустрічається %s раз".formatted(digit, count));
     }
 }
